@@ -1,0 +1,8 @@
+#+TITLE: helm-buffer-aliases
+
+Aliasing for buffers in helm-buffers-list. I keep a bunch of ~index.org~ files in
+various directories and the default ~helm-source~ doesn't help that much in
+navigation.
+
+So the plan is to allow a wrapping layer over the buffer source and let me,
+e.g., pick something from the file content (like title) as the identifier.
